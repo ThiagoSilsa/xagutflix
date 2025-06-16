@@ -20,7 +20,7 @@ function Home() {
     <>
     <ScrollToTopButton/>
       <Header />
-      <Banner image={"home"} />
+      <Banner/>
       <Container>
         {/* Aqui i´ra ser inserido informações do site */}
         {categories.map((category) => (
