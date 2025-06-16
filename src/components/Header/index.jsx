@@ -12,8 +12,9 @@ function Header() {
       </Link>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/form-add">Add</Link>
+        {/* <Link to="/form-add">Add</Link> */}
         <Link to="/favorites">Favoritos</Link>
+        <Link to="/*">Not Found</Link>
         <Link to="/search"><FaSearch size={15} /></Link>
       </nav>
     </header>
