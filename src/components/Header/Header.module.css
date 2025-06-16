@@ -1,0 +1,75 @@
+* {
+  /* Caso eu queira deixar fundo preto para o banner */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background: linear-gradient(
+    #000000,
+    #00000062
+  ); /* transparência é importante */
+  backdrop-filter: blur(5px); /* blur */
+  -webkit-backdrop-filter: blur(8px); /* suporte para Safari */
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  height: 68px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-bottom: 1px solid #f44336;
+
+  z-index: 99;
+}
+.logo {
+  text-decoration: none;
+
+  color: #b71c1c;
+
+  font-weight: bolder;
+
+  font-size: 2rem;
+
+  text-shadow: 1px 1px 5px black;
+}
+
+.header nav a {
+  font-size: 1em;
+  text-decoration: none;
+  padding-inline: 0.5rem;
+  color: white;
+
+  transition: color 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+}
+.header nav a:hover {
+  color: #ffffff94;
+}
+
+@media (max-width: 480px) {
+  .header span {
+    font-size: 1.5rem;
+  }
+  .header nav a {
+    font-size: 0.95rem;
+    padding-inline: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .header span {
+    font-size: 1.5rem;
+  }
+  .header nav a {
+    font-size: 0.75rem;
+  }
+}

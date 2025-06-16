@@ -1,0 +1,16 @@
+.watch{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+    background-color: #191919;
+    height: 100vh;
+}
+
+@media (max-width: 1024px){
+    iframe{
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+}
