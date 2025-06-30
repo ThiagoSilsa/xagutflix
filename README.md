@@ -49,7 +49,7 @@ xagutflix/
 ## Executando o projeto
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/xagutflix.git
+git clone https://github.com/ThiagoSilsa/xagutflix.git
 cd xagutflix
 
 # Instale as dependências
