@@ -66,4 +66,3 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/9bfebf79-d0c6-4698-8b99-2fac40c31513)
 
 
-Acesse no navegador: http://localhost:5173/
